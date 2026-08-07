@@ -1,60 +1,42 @@
-# 🖱️ Virtual AI Mouse Using Hand Gestures
+# 🖱️ AI Virtual Mouse System using Computer Vision and Hand Gesture Recognition
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-FF6F00?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-A Computer Vision based Virtual Mouse that enables users to control the computer cursor using real-time hand gestures through a webcam without any physical mouse.
-
-This project combines **Python**, **OpenCV**, and **MediaPipe Hand Tracking** to create an intuitive Human Computer Interaction (HCI) system.
+> **An AI-powered virtual mouse application that enables touchless computer interaction using real-time hand gesture recognition. Built with Python, OpenCV, and MediaPipe to demonstrate the capabilities of Computer Vision and Human-Computer Interaction (HCI).**
 
 ---
 
-# 📌 Project Overview
+# 📖 Overview
 
-Traditional computer interaction depends on physical input devices.
+The **AI Virtual Mouse System** is an intelligent Computer Vision application that transforms hand gestures into mouse actions using a standard webcam. Instead of relying on a physical mouse, users can interact with their computer through natural hand movements, creating a seamless and touchless user experience.
 
-This project demonstrates how Artificial Intelligence and Computer Vision can replace conventional mouse operations using hand gestures detected by a webcam.
-
-The application tracks finger movements in real time and converts them into mouse actions including:
-
-- Cursor Movement
-- Left Click
-- Right Click
-- Double Click
-- Drag & Drop
-- Scroll
-- Screenshot (optional if implemented)
+The project combines **Python**, **OpenCV**, and **MediaPipe** to perform real-time hand tracking, gesture recognition, and cursor control while showcasing practical applications of Artificial Intelligence in Human-Computer Interaction (HCI).
 
 ---
 
-# 🚀 Features
+# ✨ Features
 
-✅ Real-time Hand Detection
-
-✅ Finger Landmark Tracking
-
-✅ Cursor Movement
-
-✅ Mouse Click Detection
-
-✅ Gesture Recognition
-
-✅ Smooth Mouse Movement
-
-✅ User Friendly GUI
-
-✅ Low Latency Performance
+- 🖐️ Real-time hand detection and tracking
+- 🎯 AI-powered hand landmark recognition
+- 🖱️ Touchless cursor movement
+- 👆 Gesture-based mouse click operations
+- 🤏 Drag and Drop functionality
+- 📜 Scroll support *(if implemented)*
+- ⚡ Smooth cursor navigation with low latency
+- 💻 Simple and intuitive graphical interface
+- 📷 Webcam-based interaction without additional hardware
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Technology Stack
 
 | Category | Technology |
-|-----------|------------|
-| Language | Python |
+|----------|------------|
+| Programming Language | Python |
 | Computer Vision | OpenCV |
 | AI Framework | MediaPipe |
 | Mouse Automation | PyAutoGUI |
@@ -65,8 +47,8 @@ The application tracks finger movements in real time and converts them into mous
 
 # 📂 Project Structure
 
-```
-Virtual-AI-Mouse/
+```text
+AI-Virtual-Mouse-System/
 │
 ├── GUI.py
 ├── handTrackingModule.py
@@ -74,6 +56,7 @@ Virtual-AI-Mouse/
 ├── dictfile.txt
 ├── d_dictfile.txt
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -81,25 +64,25 @@ Virtual-AI-Mouse/
 
 # ⚙️ Installation
 
-Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Virtual-AI-Mouse.git
+git clone https://github.com/Mo-nesh/AI-Virtual-Mouse-System.git
 ```
 
-Navigate into project
+### 2️⃣ Navigate to the Project Directory
 
 ```bash
-cd Virtual-AI-Mouse
+cd AI-Virtual-Mouse-System
 ```
 
-Install dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run
+### 4️⃣ Launch the Application
 
 ```bash
 python GUI.py
@@ -113,94 +96,131 @@ python virtual_mouse_hands.py
 
 ---
 
-# 🖥️ How It Works
+# 🧠 How It Works
 
-1. Webcam captures live video.
-2. MediaPipe detects hand landmarks.
-3. Finger positions are extracted.
-4. Different gestures are identified.
-5. Corresponding mouse commands are executed.
-6. Cursor movement becomes completely touchless.
+1. Captures live video from the webcam.
+2. Detects and tracks hand landmarks using MediaPipe.
+3. Identifies finger positions and hand gestures.
+4. Maps recognized gestures to mouse operations.
+5. Executes cursor movement and mouse events in real time.
 
 ---
 
-# 🎯 Supported Gestures
+# ✋ Supported Gestures
 
-| Gesture | Action |
-|----------|---------|
+| Hand Gesture | Mouse Action |
+|--------------|--------------|
 | Index Finger | Cursor Movement |
 | Index + Middle Finger | Left Click |
-| Thumb + Index | Right Click |
-| Pinch Gesture | Drag |
-| Two Finger Swipe | Scroll |
+| Thumb + Index Finger | Right Click |
+| Pinch Gesture | Drag & Drop |
+| Two Finger Swipe | Scroll *(if implemented)* |
 
-*(Gestures may vary depending on implementation.)*
+> **Note:** Available gestures may vary depending on the current implementation.
 
 ---
 
-# 📊 Applications
+# 🎯 Applications
 
-- Touchless Computer Interaction
+- Human-Computer Interaction (HCI)
+- Touchless Computing
 - Accessibility Solutions
 - Smart Classrooms
 - Interactive Presentations
 - Healthcare Systems
-- Public Kiosks
-- AI Research
-- Human Computer Interaction (HCI)
+- Public Information Kiosks
+- AI & Computer Vision Research
+- Gesture-Based Automation
 
 ---
 
 # 📈 Future Enhancements
 
-- Voice Commands
-- Gesture Customization
-- Multi-Hand Detection
-- Virtual Keyboard
-- Face Authentication
-- AI Gesture Learning
-- Cross Platform Optimization
+- 🎙️ Voice Command Integration
+- ✋ Custom Gesture Mapping
+- 🖐️ Multi-Hand Recognition
+- ⌨️ Virtual Keyboard Support
+- 🤖 AI-Based Gesture Learning
+- 🌐 Cross-Platform Compatibility
+- ⚡ Enhanced Tracking Accuracy
 
 ---
 
 # 📸 Screenshots
 
-> Add screenshots of your application here.
+Add screenshots or a demonstration GIF to showcase the application.
 
-Example
-
+```text
+assets/
+├── banner.png
+├── demo.gif
+├── home.png
+├── tracking.png
+└── gesture.png
 ```
-screenshots/
-    home.png
-    gesture.png
-    tracking.png
+
+Example:
+
+```markdown
+![Application Demo](assets/demo.gif)
 ```
 
 ---
 
 # 📦 Requirements
 
-```
+```text
 opencv-python
 mediapipe
 numpy
 pyautogui
+Pillow
 tkinter
 ```
 
 ---
 
+# 💼 Skills Demonstrated
+
+- Python Programming
+- Artificial Intelligence
+- Computer Vision
+- MediaPipe Framework
+- OpenCV
+- Gesture Recognition
+- Human-Computer Interaction (HCI)
+- Image Processing
+- Real-Time Video Processing
+- Software Development
+- GUI Development
+- Automation
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you have ideas for new features, optimizations, or bug fixes:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
+
+---
+
 # 👨‍💻 Author
 
-**Monesh R**
+### **Monesh R**
 
-AI Data Analyst • Data Analyst • Business Intelligence • Computer Vision Enthusiast
+**Data Analyst | AI Data Analyst | Business Intelligence | Computer Vision Enthusiast**
 
-LinkedIn:
-https://linkedin.com/in/moneshr
+📧 **Email:** moneshmuddu@gmail.com
 
-GitHub:
-https://github.com/monesh-r
+🔗 **LinkedIn:** https://linkedin.com/in/moneshr
+
+💻 **GitHub:** https://github.com/monesh-r
 
 ---
 
@@ -208,10 +228,18 @@ https://github.com/monesh-r
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
-It motivates further development and helps others discover the project.
+Your support helps improve project visibility and encourages future development.
 
 ---
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for additional information.
+
+---
+
+<p align="center">
+Made with ❤️ using <strong>Python</strong>, <strong>OpenCV</strong> & <strong>MediaPipe</strong>
+</p>
