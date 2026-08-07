@@ -200,7 +200,7 @@ LinkedIn:
 https://linkedin.com/in/moneshr
 
 GitHub:
-[https://github.com/Mo-nesh](https://github.com/monesh-r)
+https://github.com/monesh-r
 
 ---
 
